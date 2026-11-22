@@ -126,6 +126,8 @@ footer a{text-decoration:none;color:var(--muted)}footer a:hover{color:var(--ocea
 .feature-photos{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .feature-photos img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:10px}
 .feature-photos img.big{grid-column:1/-1;aspect-ratio:16/9}
+.feature-link{display:flex;align-items:center;justify-content:center;aspect-ratio:4/3;border-radius:10px;background:var(--ocean);color:#fff;text-decoration:none;font-weight:600;font-size:15px;padding:12px;text-align:center}
+.feature-link:hover{background:var(--ink)}
 @media (max-width:900px){.feature{grid-template-columns:1fr}}
 </style>
 </head>
@@ -180,7 +182,7 @@ footer a{text-decoration:none;color:var(--muted)}footer a:hover{color:var(--ocea
 <section class="mist" id="journey"><div class="wrap">
   <span class="label">Learning journey</span>
   <h2>Listening to AI communities around the world.</h2>
-  <p class="lead">Alongside building Islas Tech, I've been attending AI events and meetups to see how different communities and governments are adopting AI and supporting local founders. These are the most recent stops, after Taiwan, Malaysia, Singapore and the UAE.</p>
+  <p class="lead">Alongside building Islas Tech, I've been attending AI events and meetups to see how different communities and governments are adopting AI and supporting local founders. These are the most recent stops, after Taiwan, Malaysia, Singapore, Abu Dhabi and Dubai.</p>
   <div class="feature">
     <div class="feature-text">
       <div class="where">Frankfurt, Germany · 29–30 October 2026</div>
@@ -194,10 +196,22 @@ footer a{text-decoration:none;color:var(--muted)}footer a:hover{color:var(--ocea
       <img src="travel/frankfurt-ai-tech-stage.jpg" alt="AI Tech Stage session at AI Week Frankfurt" loading="lazy">
     </div>
   </div>
-  <div class="grid g3" style="margin-top:20px">
+  <div class="grid g2" style="margin-top:20px">
     <div class="trip"><img src="travel/zurich-mindstone.jpg" alt="Talk at the Mindstone Zurich AI Meetup at Unit8" loading="lazy"><div><div class="where">Zurich, Switzerland · 4 Nov 2026</div><h3>Mindstone Zurich AI Meetup</h3><p>An evening of practical AI talks at Unit8 on Beethovenstrasse, on three ways into AI: for organisations, for creators and for builders.</p></div></div>
     <div class="trip"><img src="travel/zurich-gdg-google.jpg" alt="GDG Cloud Zürich Tech Talks #38 stage at Google Zurich" loading="lazy"><div><div class="where">Zurich, Switzerland · 5 Nov 2026</div><h3>GDG Cloud Zürich Tech Talks #38</h3><p>Google Developer Groups tech talks at Google Zurich, Europaallee.</p></div></div>
-    <div class="trip"><img src="travel/paris-hack-the-feed.jpg" alt="Hack the Feed AI video hackathon poster" loading="lazy"><div><div class="where">Paris, France</div><h3>Hack the Feed hackathon</h3><p>An AI video hackathon with Oriane, Lovable and Brut at Albert School Paris.</p></div></div>
+  </div>
+  <div class="feature">
+    <div class="feature-text">
+      <div class="where">Paris, France · 7 November 2026</div>
+      <h3>Hack the Feed: my first hackathon</h3>
+      <p>An AI video hackathon run by Oriane, Lovable and Brut at Albert School Paris. Working solo, I built <a href="https://paris-chef-radar.lovable.app" style="color:var(--ocean);font-weight:600">Chef Radar Paris</a> in Lovable: it uses Oriane's live data to find rising Paris chefs on social media, then writes a Brut-style 60-second video story about each one.</p>
+      <p>I submitted it in Track 01 (Video Search) as team #5, and met Oriane's co-founder along the way.</p>
+    </div>
+    <div class="feature-photos">
+      <img class="big" src="travel/paris-albert-school.jpg" alt="Mariel at Albert School Paris during the Hack the Feed hackathon" loading="lazy">
+      <img src="travel/paris-hack-the-feed.jpg" alt="Hack the Feed AI video hackathon poster" loading="lazy">
+      <a class="feature-link" href="https://paris-chef-radar.lovable.app"><span>Try Chef Radar Paris →</span></a>
+    </div>
   </div>
 </div></section>
 
